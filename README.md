@@ -1,10 +1,12 @@
 2026/8/24
+
 数据来源自阿里云天池IJCAI-18 阿里妈妈搜索广告转化预测
 https://tianchi.aliyun.com/competition/entrance/231647/information
 
 整套项目：数据清洗 → EDA 维度拆分 → 特征工程 & 数据集划分 → LightGBM 建模调优 → 输出结果submit.csv文件
 
 要运行代码从网站下载数据以后修改文件路径即可。
+
 train = pd.read_csv("./data/1/round1_ijcai_18_train_20180301.txt", sep=' ')
 test = pd.read_csv("./data/1/round1_ijcai_18_test_a_20180301.txt", sep=' ')
 
